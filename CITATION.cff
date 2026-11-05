@@ -1,6 +1,6 @@
 # CITATION.cff — Citation File Format 1.2.0
 # affiliation / orcid / preferred-citation 在投稿定稿后再补；
-# doi 行由 Zenodo 首次发布后回填。
+# 归档 DOI 由 Mendeley Data 分配（Zenodo 域名在国内不可达）。
 
 cff-version: 1.2.0
 message: "If you use this code, please cite the associated article."
@@ -8,7 +8,10 @@ title: "Analysis code for: a glycolytic-lactylation transcriptional programme in
 type: software
 license: MIT
 repository-code: "https://github.com/Qin-shaokun/tle-hs-lactylation"
-# doi: "10.5281/zenodo.TODO"        # added automatically after the first Zenodo release
+identifiers:
+  - type: doi
+    value: "10.17632/d56pd92f2.1"
+    description: "Archived release of the analysis code (v1.0.0), Mendeley Data"
 date-released: "2026-11-05"
 version: "1.0.0"
 
