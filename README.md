@@ -96,6 +96,7 @@ These are deliberate, and each is stated in the paper's Methods:
 - **Cell-type signatures exclude the hub genes**, to avoid correlating a gene with a signature that contains it. Omitting this step inflates the B-cell correlation from ρ = 0.33 to ρ = 0.81.
 - **Microglial nuclei are scarce in control specimens (n = 7)**, so no within-microglia group comparison is performed; the single-nucleus data localise the signal but do not establish per-cell-type differential expression.
 - **Cell-composition estimates are descriptive only.** Some cell types are absent from individual specimens, so group means are reported alongside the per-specimen range, without testing.
+- **Composition shares use a fixed denominator of all eight specimens.** An earlier script averaged group fractions only over the specimens in which a cell type was detected, which inflated the TLE microglial fraction from 7.8% to 15.6%; that script is not part of this release. `09b3_composition_hub.R` counts non-detection as zero, and Figure 7C/D report the corrected values.
 - **The glycolytic and lactylation signal is transcriptional.** No lactylome, no pan-Kla immunoblot and no cognitive scores are available; the paper explicitly frames the result as a testable transcriptional framework rather than a biochemical demonstration.
 
 ---
