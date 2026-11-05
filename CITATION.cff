@@ -1,32 +1,33 @@
 # CITATION.cff — Citation File Format 1.2.0
-# Fill in the TODO fields before publishing; Zenodo will read this file when
-# minting the DOI. Author order should match the manuscript.
+# affiliation / orcid / preferred-citation 在投稿定稿后再补；
+# doi 行由 Zenodo 首次发布后回填。
 
 cff-version: 1.2.0
 message: "If you use this code, please cite the associated article."
 title: "Analysis code for: a glycolytic-lactylation transcriptional programme in human temporal lobe epilepsy with hippocampal sclerosis"
 type: software
 license: MIT
-repository-code: "https://github.com/TODO-USERNAME/TODO-REPO"
+repository-code: "https://github.com/Qin-shaokun/tle-hs-lactylation"
 # doi: "10.5281/zenodo.TODO"        # added automatically after the first Zenodo release
 date-released: "2026-11-05"
 version: "1.0.0"
 
 authors:
-  - family-names: "TODO"
-    given-names: "TODO"
-    # affiliation: "TODO"
-    # orcid: "https://orcid.org/0000-0000-0000-0000"
+  - family-names: "Qin"
+    given-names: "Shaokun"
+    email: "1521506573@qq.com"
+    # affiliation: 填写投稿定稿后的单位
+    # orcid: 有 ORCID 后补此行
 
-preferred-citation:
-  type: article
-  title: "A glycolytic-lactylation transcriptional programme in human temporal lobe epilepsy with hippocampal sclerosis"
-  authors:
-    - family-names: "TODO"
-      given-names: "TODO"
-  journal: "TODO"
-  year: 2026
-  # doi: "TODO"
+# preferred-citation 区块在稿件投出后再启用（届时补期刊名与作者列表）：
+# preferred-citation:
+#   type: article
+#   title: "A glycolytic-lactylation transcriptional programme in human temporal lobe epilepsy with hippocampal sclerosis"
+#   authors:
+#     - family-names: "Qin"
+#       given-names: "Shaokun"
+#   year: 2026
+#   # journal / doi: 投稿后填
 
 references:
   - type: article
