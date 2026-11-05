@@ -1,0 +1,81 @@
+# CITATION.cff — Citation File Format 1.2.0
+# Fill in the TODO fields before publishing; Zenodo will read this file when
+# minting the DOI. Author order should match the manuscript.
+
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated article."
+title: "Analysis code for: a glycolytic-lactylation transcriptional programme in human temporal lobe epilepsy with hippocampal sclerosis"
+type: software
+license: MIT
+repository-code: "https://github.com/TODO-USERNAME/TODO-REPO"
+# doi: "10.5281/zenodo.TODO"        # added automatically after the first Zenodo release
+date-released: "2026-11-05"
+version: "1.0.0"
+
+authors:
+  - family-names: "TODO"
+    given-names: "TODO"
+    # affiliation: "TODO"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
+
+preferred-citation:
+  type: article
+  title: "A glycolytic-lactylation transcriptional programme in human temporal lobe epilepsy with hippocampal sclerosis"
+  authors:
+    - family-names: "TODO"
+      given-names: "TODO"
+  journal: "TODO"
+  year: 2026
+  # doi: "TODO"
+
+references:
+  - type: article
+    title: "Identification of gene regulatory networks affected across drug-resistant epilepsies"
+    authors:
+      - family-names: "François"
+        given-names: "L"
+      - family-names: "Romagnolo"
+        given-names: "A"
+      - family-names: "Luinenburg"
+        given-names: "MJ"
+    journal: "Nature Communications"
+    year: 2024
+    volume: 15
+    start: 2180
+    doi: "10.1038/s41467-024-46592-2"
+
+  - type: article
+    title: "Lipid-accumulated reactive astrocytes promote disease progression in epilepsy"
+    authors:
+      - family-names: "Chen"
+        given-names: "ZP"
+      - family-names: "Wang"
+        given-names: "S"
+      - family-names: "Zhao"
+        given-names: "X"
+      - family-names: "Fang"
+        given-names: "W"
+    journal: "Nature Neuroscience"
+    year: 2023
+    volume: 26
+    start: 542
+    end: 554
+    doi: "10.1038/s41593-023-01288-6"
+
+  - type: article
+    title: "Differential gene expression in dentate granule cells in mesial temporal lobe epilepsy with and without hippocampal sclerosis"
+    authors:
+      - family-names: "Griffin"
+        given-names: "NG"
+      - family-names: "Wang"
+        given-names: "Y"
+      - family-names: "Hulette"
+        given-names: "CM"
+      - family-names: "Halvorsen"
+        given-names: "M"
+    journal: "Epilepsia"
+    year: 2016
+    volume: 57
+    start: 376
+    end: 385
+    pmid: 26799155
