@@ -1,10 +1,10 @@
 # Glycolytic–lactylation programme in human TLE-HS cortex
 
-[![DOI](https://img.shields.io/badge/DOI-10.17632%2Fds56pd92f2.2-blue)](https://doi.org/10.17632/ds56pd92f2.2)
+[![DOI](https://img.shields.io/badge/DOI-10.17632%2Fds56pd92f2-blue)](https://doi.org/10.17632/ds56pd92f2)
 
 Analysis code for the study *"A glycolytic–lactylation transcriptional programme in human temporal lobe epilepsy with hippocampal sclerosis"*.
 
-Version 1.0.0 of this code is archived at Mendeley Data under DOI [10.17632/ds56pd92f2.2](https://doi.org/10.17632/ds56pd92f2.2).
+Version 1.0.0 of this code is archived at Mendeley Data under DOI [10.17632/ds56pd92f2](https://doi.org/10.17632/ds56pd92f2).
 
 The repository contains every script needed to reproduce the analyses, figures and supplementary figures from publicly available data. Raw and processed expression data are **not** included; the download step is scripted (see [Data](#data)).
 
@@ -124,7 +124,7 @@ Outputs are written to `results/` (tables, `.rds` objects) and `figures/` (`figu
 
 ## Data and code availability
 
-Expression data are available from GEO under the accessions listed above. This repository contains all custom code; no custom algorithms were developed. Figures were assembled with base R `grid` and `png`. A permanent snapshot of version 1.0.0 is archived at Mendeley Data (DOI: 10.17632/ds56pd92f2.2); the GitHub repository is the maintained copy.
+Expression data are available from GEO under the accessions listed above. This repository contains all custom code; no custom algorithms were developed. Figures were assembled with base R `grid` and `png`. A permanent snapshot of version 1.0.0 is archived at Mendeley Data (DOI: 10.17632/ds56pd92f2); the GitHub repository is the maintained copy.
 
 ## License
 

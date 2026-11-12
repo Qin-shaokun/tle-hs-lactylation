@@ -10,8 +10,8 @@ license: MIT
 repository-code: "https://github.com/Qin-shaokun/tle-hs-lactylation"
 identifiers:
   - type: doi
-    value: "10.17632/ds56pd92f2.2"
-    description: "Archived release of the analysis code (v1.0.0), Mendeley Data, version 2"
+    value: "10.17632/ds56pd92f2"
+    description: "Archived release of the analysis code, Mendeley Data (dataset-level DOI, resolves to the latest version)"
 date-released: "2026-11-05"
 version: "1.0.0"
 
